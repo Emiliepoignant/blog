@@ -1,0 +1,46 @@
+body{ 
+	color : lightyellow ; /*color permet de choisir la couleur du text*/
+	background-color: rgb(201, 147, 147); /*permeet de choisir la couleur du fond d'ecran*/
+	font-family: sans-serif ; /*permet de choisir la police du texte, on peut choisir plusieurs valeur entre serif, sans serif, fantasy, cursive ou monospace*/
+	font-size: 15px ; /*modifier la taille des lettres*/
+	line-height: 20px ; /*modifier l'espace qu'il y a entre 2 lignes de texte*/
+	letter-spacing: 1px ; /*modifier l'espace entre chaque lettre*/ 
+	text-align: center ; /*changer lapositiondu texte ent mettant center, left ou right*/
+}
+
+h1{
+	color: #c25f5f ;
+	font-family: fantasy ;
+	font-variant: small-caps ; /*transformer les lettre en petite majuscule*/
+}
+
+h2{
+	font-family: monospace ;
+	color: #c25f5f ;
+	font-weight: lighter ; /*modifier l'epaisseur des lettres lighter, bolder*/
+}
+
+a{
+	text-decoration: none ;
+	color: #c25f5f ; /*permet de supprimer la ligne de soulignement d'un lien*/
+}
+a:hover{ /* hover permet de modifier la couleur du lien quand on passe la souris dessus*/
+	color: lightyellow ;
+}
+
+div{
+	border: dotted;
+	margin: 25px 200px; /*marge exterieur*/
+	padding: 10px ; /*marge interieur*/
+	border-radius: 15px ;/*arrondire les angles des bords*/
+	box-shadow: 10px 15px 20px #c25f5f ; /*ajouter une ombre a nos elements*/
+}
+
+img{
+	border-radius: 10px ;
+}
+
+.mot{
+	color:green;
+}
+ 
